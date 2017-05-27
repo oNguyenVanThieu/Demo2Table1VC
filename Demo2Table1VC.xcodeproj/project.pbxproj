@@ -12,6 +12,10 @@
 		F8A2D0461ED9EACF00A8A6C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8A2D0441ED9EACF00A8A6C7 /* Main.storyboard */; };
 		F8A2D0481ED9EACF00A8A6C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8A2D0471ED9EACF00A8A6C7 /* Assets.xcassets */; };
 		F8A2D04B1ED9EACF00A8A6C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8A2D0491ED9EACF00A8A6C7 /* LaunchScreen.storyboard */; };
+		F8A2D0561ED9EF2800A8A6C7 /* ParentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A2D0541ED9EF2800A8A6C7 /* ParentTableViewCell.swift */; };
+		F8A2D0571ED9EF2800A8A6C7 /* ParentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8A2D0551ED9EF2800A8A6C7 /* ParentTableViewCell.xib */; };
+		F8A2D05B1ED9F08500A8A6C7 /* ChildTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A2D0591ED9F08500A8A6C7 /* ChildTableViewCell.swift */; };
+		F8A2D05C1ED9F08500A8A6C7 /* ChildTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8A2D05A1ED9F08500A8A6C7 /* ChildTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		F8A2D0471ED9EACF00A8A6C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8A2D04A1ED9EACF00A8A6C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8A2D04C1ED9EACF00A8A6C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8A2D0541ED9EF2800A8A6C7 /* ParentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParentTableViewCell.swift; path = ParentTableViewCell/ParentTableViewCell.swift; sourceTree = "<group>"; };
+		F8A2D0551ED9EF2800A8A6C7 /* ParentTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ParentTableViewCell.xib; path = ParentTableViewCell/ParentTableViewCell.xib; sourceTree = "<group>"; };
+		F8A2D0591ED9F08500A8A6C7 /* ChildTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChildTableViewCell.swift; path = ChildTableViewCell/ChildTableViewCell.swift; sourceTree = "<group>"; };
+		F8A2D05A1ED9F08500A8A6C7 /* ChildTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChildTableViewCell.xib; path = ChildTableViewCell/ChildTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,8 @@
 		F8A2D03F1ED9EACF00A8A6C7 /* Demo2Table1VC */ = {
 			isa = PBXGroup;
 			children = (
+				F8A2D0581ED9F06C00A8A6C7 /* ChildTableViewCell */,
+				F8A2D0531ED9EF0100A8A6C7 /* ParentTableViewCell */,
 				F8A2D0401ED9EACF00A8A6C7 /* AppDelegate.swift */,
 				F8A2D0421ED9EACF00A8A6C7 /* ViewController.swift */,
 				F8A2D0441ED9EACF00A8A6C7 /* Main.storyboard */,
@@ -62,6 +72,24 @@
 				F8A2D04C1ED9EACF00A8A6C7 /* Info.plist */,
 			);
 			path = Demo2Table1VC;
+			sourceTree = "<group>";
+		};
+		F8A2D0531ED9EF0100A8A6C7 /* ParentTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F8A2D0541ED9EF2800A8A6C7 /* ParentTableViewCell.swift */,
+				F8A2D0551ED9EF2800A8A6C7 /* ParentTableViewCell.xib */,
+			);
+			name = ParentTableViewCell;
+			sourceTree = "<group>";
+		};
+		F8A2D0581ED9F06C00A8A6C7 /* ChildTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F8A2D0591ED9F08500A8A6C7 /* ChildTableViewCell.swift */,
+				F8A2D05A1ED9F08500A8A6C7 /* ChildTableViewCell.xib */,
+			);
+			name = ChildTableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8A2D04B1ED9EACF00A8A6C7 /* LaunchScreen.storyboard in Resources */,
+				F8A2D0571ED9EF2800A8A6C7 /* ParentTableViewCell.xib in Resources */,
 				F8A2D0481ED9EACF00A8A6C7 /* Assets.xcassets in Resources */,
 				F8A2D0461ED9EACF00A8A6C7 /* Main.storyboard in Resources */,
+				F8A2D05C1ED9F08500A8A6C7 /* ChildTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +169,8 @@
 			files = (
 				F8A2D0431ED9EACF00A8A6C7 /* ViewController.swift in Sources */,
 				F8A2D0411ED9EACF00A8A6C7 /* AppDelegate.swift in Sources */,
+				F8A2D05B1ED9F08500A8A6C7 /* ChildTableViewCell.swift in Sources */,
+				F8A2D0561ED9EF2800A8A6C7 /* ParentTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +334,7 @@
 				F8A2D0511ED9EACF00A8A6C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
